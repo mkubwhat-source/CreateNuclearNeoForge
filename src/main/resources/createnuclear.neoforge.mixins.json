@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "priority": 1100,
+  "package": "net.nuclearteam.createnuclear.foundation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BaseFireBlockMixin",
+    "SmithingTransformRecipeMixin"
+  ],
+  "client": [
+    "client.RadiationHeartMixin",
+    "client.AntiRadiationArmorTextureMixin",
+    "client.CameraAccessor",
+    "client.GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
